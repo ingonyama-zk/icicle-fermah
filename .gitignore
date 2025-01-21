@@ -1,0 +1,5 @@
+/target
+icicle
+*.zkey
+*.wtns
+*.json

@@ -15,12 +15,12 @@
 
 1. **Run on CUDA Device**
    ```bash
-   LD_LIBRARY_PATH=./lib ./groth16 --device CUDA
+   cargo run --release -- --device CUDA
    ```
 
 2. **Run on CPU**
    ```bash
-   LD_LIBRARY_PATH=./lib ./groth16 --device CPU
+   cargo run --release -- --device CPU
    ```
 
 ### Executing Proofs
